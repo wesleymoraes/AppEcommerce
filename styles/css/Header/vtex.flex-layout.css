@@ -1,0 +1,98 @@
+.flexRow--Row-1{
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(167, 14, 19);
+}
+.flexRowContent--Top-Bar :global(.vtex-menu-2-x-styledLinkContent--menuTopBar){
+    font-family: Arial;
+    font-size: 12px;
+  align-items:center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10%;
+}
+.flexRowContent--Row-1 :global(.vtex-menu-2-x-menuItem--menuTopBar){
+    align-items: center;
+}
+.flexRowContent--menu-link{
+    align-items: center;
+}
+.flexRowContent--topbarleft :global(.vtex-menu-2-x-styledLinkContent--menuTopBar){
+    font-size: 12px!important;
+    justify-content: space-between;
+
+}
+.flexRowContent--topbarRight :global(.vtex-menu-2-x-styledLinkContent--menuTopBar){
+    justify-content: flex-end;
+}
+.flexRowContent--topbarRight :global(.vtex-menu-2-x-styledLinkContent--menuTopBar-atendimento){
+    padding-left: 340px;
+    color: white;
+    font-size: 12px;
+
+}
+.flexRowContent--Row-menu{
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid  rgb(219, 216, 216);
+    }
+.flexRowContent--flexRow--Row2{   
+    align-items: center;
+    justify-content: space-between;
+}
+.flexCol--col-logo :global(.vtex-store-components-3-x-logoContainer){
+    margin-left: 3%;
+}
+.flexColChild--1-main-header :global(.vtex-store-components-3-x-searchBarContainer){
+    border: 0px;
+  
+}
+.flexColChild--1-main-header :global(.vtex-store-components-3-x-searchBarIcon--search){
+
+  color: red;
+}
+.flexColChild--1-main-header :global(.vtex-input-prefix__group){
+    width: 670px;
+    z-index: 999;
+    height: 40px;
+    border: none;
+}
+
+.flexCol--3-main-header{
+    flex-direction: row;
+    align-items: center;
+
+}
+.flexColChild--3-main-header :global(.vtex-minicart-2-x-minicartIconContainer), :global(.vtex-login-2-x-profileIcon){
+    color: white;
+}
+
+.flexRow--Row-menu :global(.vtex-menu-2-x-styledLinkContent){
+    -webkit-box-align: center;
+    padding: 0px 13px 0px 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+    font-weight: bold;
+
+}
+.flexRow--Row-menu :global(.vtex-menu-2-x-styledLinkContent--outlet){
+    color: rgb(245, 4, 4)
+}
+.flexRowContent--menu-link {
+    background-color: rgb(227,0,0);
+    color: #fff;
+    height: 86px;
+}
+.flexRowContent :global(.vtex-store-components-3-x-imageElement){
+    margin-bottom: 10px;
+}
